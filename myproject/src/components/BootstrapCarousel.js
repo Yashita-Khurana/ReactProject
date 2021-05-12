@@ -12,12 +12,12 @@ export class BootstrapCarousel extends Component {
   <Carousel.Item>
     <img
       className="first"
-      src="download (1).png"
+      src="dl.jpg"
       alt="First slide"
     />
     <Carousel.Caption>
-      {/* <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+      <h3  className="test">First slide label</h3>
+      <p  className="test">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
