@@ -1,7 +1,7 @@
 import './App.css';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import C from "./components/C"
+import Car from "./components/Car"
 import BootstrapCarousel from './components/BootstrapCarousel'
 import Navbar from './components/Navbar';
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
     {/* <Navbar/> */}
     
-    <C/>
+    <Car/>
     </div>
   );
 }
