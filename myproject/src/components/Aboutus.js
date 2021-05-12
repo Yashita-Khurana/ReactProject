@@ -5,6 +5,7 @@ import WorkIcon from '@material-ui/icons/Work';
 import EcoIcon from '@material-ui/icons/Eco';
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import BuildIcon from '@material-ui/icons/Build';
+ import './Aboutus.css'
 function Aboutus() {
     return (
         <div>
