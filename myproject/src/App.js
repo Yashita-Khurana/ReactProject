@@ -1,15 +1,14 @@
-import './App.css';
-import Button from 'react-bootstrap/Button';
+import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Car from "./components/Car"
-import BootstrapCarousel from './components/BootstrapCarousel'
-import Navbar from './components/Navbar';
+
+import Test from './components/Test'
+
 function App() {
   return (
     <div className="App">
-    {/* <Navbar/> */}
+  
+    <Test/>
     
-    <Car/>
     </div>
   );
 }
