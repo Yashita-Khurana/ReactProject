@@ -8,88 +8,67 @@ import { faPinterest } from '@fortawesome/free-brands-svg-icons'
 function Footer() {
     return (
         <div>
-
-
-            <footer className="new_footer_area bg_color">
-                <div className="new_footer_top">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-3 col-md-6">
-                                <div id="s1" className="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" >
-                                    <h3 className="f-title f_600 t_color f_size_18">Get in Touch</h3>
-                                    <p>Don’t miss any updates of our new templates and extensions.!</p>
-                                    <form action="#" className="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
-                                        <input type="text" name="EMAIL" className="form-control memail" placeholder="Email" />
-                                        <button className="btn btn_get btn_get_two" type="submit">Subscribe</button>
-                                        <p id="s2" className="mchimp-errmessage" ></p>
-                                        <p id="s3" className="mchimp-sucmessage" ></p>
-                                    </form>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6">
-                                <div id="s4" className="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s">
-                                    <h3 className="f-title f_600 t_color f_size_18">Download</h3>
-                                    <ul className="list-unstyled f_list">
-                                        <li><a href="#">Company</a></li>
-                                        <li><a href="#">Android App</a></li>
-                                        <li><a href="#">ios App</a></li>
-                                        <li><a href="#">Desktop</a></li>
-                                        <li><a href="#">Projects</a></li>
-                                        <li><a href="#">My tasks</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6">
-                                <div id="s5" className="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s">
-                                    <h3 className="f-title f_600 t_color f_size_18">Help</h3>
-                                    <ul className="list-unstyled f_list">
-                                        <li><a href="#">FAQ</a></li>
-                                        <li><a href="#">Term &amp; conditions</a></li>
-                                        <li><a href="#">Reporting</a></li>
-                                        <li><a href="#">Documentation</a></li>
-                                        <li><a href="#">Support Policy</a></li>
-                                        <li><a href="#">Privacy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6">
-                                <div id="s6" className="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" >
-                                    <h3 className="f-title f_600 t_color f_size_18">Team Solutions</h3>
-                                    <div className="f_social_icon">
-
-                                        <a href="#" className="fab fa-facebook"><FontAwesomeIcon icon={faFacebookF} style={{ color: "black" }} /></a>
-                                        <a href="#" className="fab fa-twitter"><FontAwesomeIcon icon={faTwitter} style={{ color: "black" }} /></a>
-                                        <a href="#" className="fab fa-linkedin"><FontAwesomeIcon icon={faLinkedin} style={{ color: "black" }} /></a>
-                                        <a href="#" className="fab fa-pinterest"><FontAwesomeIcon icon={faPinterest} style={{ color: "black" }} /></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <footer>
+                <div className="footer">
+                    <div className="column">
+                        <ul>
+                            <li className="title">LEVIOOSA</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                        </ul>
                     </div>
-                    <div className="footer_bg">
 
-                        <div className="footer_bg_one"></div>
-                        <div className="footer_bg_two"></div>
+                    <div className="column">
+                        <ul>
+                            <li className="title">OTHER LINKS</li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">Tickets</a></li>
+                        </ul>
                     </div>
-                    
-                </div>
 
-             
+                    <div className="column">
+                        <ul>
+                            <li className="title">SHORT CUT</li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Our Mission</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
 
-
-                <div className="footer_bottom">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6 col-sm-7">
-                                <p className="mb-0 f_400">© cakecounter Inc.. 2019 All rights reserved.</p>
-                            </div>
-                            <div className="col-lg-6 col-sm-5 text-right">
-                                <p>Made with <i className="icon_heart"></i> in <a href="#">CakeCounter</a></p>
-                            </div>
-                        </div>
+                    <div className="column">
+                        <ul>
+                            <li className="title">NEWSLETTER</li>
+                            <li>
+                                <form action="#" method="post">
+                                    <input type="email" name="email" placeholder="Email*" maxlength="80" required /><button className="btn1"><i className="fa fa-paper-plane"></i></button>
+                                </form>
+                            </li>
+                            <li>
+                                <a href="#" title="Address,State,Country,Pincode"><i className="fa fa-map-marker"></i></a>
+                                <a href="#"><i className="fa fa-phone"></i></a>
+                                <a href="#"><i className="fa fa-envelope"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </footer>
+
+
+
+            <div className="new_footer_top">
+
+                <div className="footer_bg">
+
+                    <div className="footer_bg_one"></div>
+                    <div className="footer_bg_two"></div>
+                </div>
+
+            </div>
+            <div className="sub-footer">
+                INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh
+</div>
         </div>
     )
 }
